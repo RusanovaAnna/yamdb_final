@@ -11,6 +11,8 @@ from rest_framework_simplejwt.tokens import AccessToken
 from reviews.models import Category, Genre, Review, Title, User
 
 
+from api_yamdb.settings import EMAIL_ADMIN
+
 from .filtres import TitleFilter
 from .mixins import ListCreateDestroyViewSet
 from .pagination import UserPagination
@@ -22,7 +24,6 @@ from .serializers import (CategorySerializer, CommentSerializer,
                           ReadTitleSerializer, ReviewSerializer,
                           TitleSerializer, UserSerializer)
 
-from api_yamdb.settings import EMAIL_ADMIN
 
 @api_view(['POST'])
 @permission_classes([AllowAny],)
