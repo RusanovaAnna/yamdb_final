@@ -1,4 +1,5 @@
 # Проект YaMDb
+![example workflow](https://github.com/RusanovaAnna/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
 
 yamdb_final
 
@@ -80,5 +81,3 @@ docker-compose exec web python manage.py collectstatic --no-input
 
 - Николаев Максим [GitHub профиль](https://github.com/Maxmile-sprint)
 - Русанова Анна [GitHub профиль](https://github.com/RusanovaAnna)
-
-![example workflow](https://github.com/RusanovaAnna/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
