@@ -83,6 +83,9 @@ docker-compose exec web python manage.py collectstatic --no-input
 - Русанова Анна [GitHub профиль](https://github.com/RusanovaAnna)
 
 Развернутый проект:
+
 http://62.84.123.164/redoc/
+
 http://62.84.123.164/api/v1/
+
 http://62.84.123.164/admin/
